@@ -2,7 +2,7 @@ import classes from './Cart.module.css';
 import Modal from '../UI/Modal';
 
 const Cart = props => {
-  console.log('cart props', props);
+  //console.log('cart props', props);
   const cartItems = <ul className={classes['cart-items']}>{
     [{
       id: 'c1',
