@@ -23,7 +23,7 @@ const Cart = props => {
     setIsSubmitting(true);
     console.log('inside submit order handler =>', userData);
 
-    await fetch('https://react-http-3d132-default-rtdb.firebaseio.com/orders.json', {
+    await fetch('https://section-17-react-food-http-default-rtdb.firebaseio.com/orders.json', {
       method: 'POST',
       body: JSON.stringify({
         user: userData,
